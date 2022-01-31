@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.container div{
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+}
+.container div h1{
+    color: rgba(0, 0, 0, 0.746);
+}
+.container div input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px 10px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 4px;
+}
+.container div input:focus{
+    outline: none;
+}
+.container div p{
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: auto;
+
+}
